@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APP TEV</title>
+    <link rel= "stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+    <body>
+
+        <nav>
+            <div id="hamburguer">
+                <div class="linha"></div>
+                <div class="linha"></div>
+                <div class="linha"></div>
+            </div>
+    
+            <ul id="menu">
+                <li>
+                    <a href="#secao-home">
+                        <i class="fa-solid fa-house"></i>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#secao-apresentacao">
+                        <i class="fa-solid fa-user"></i>
+                        Proposta
+                    </a>
+                </li>
+                <li>
+                    <a href="#secao-projetos">
+                        <i class="fa-solid fa-code"></i>
+                        Soluçoes
+                    </a>
+                </li>
+                <li>
+                    <a href="#secao-orcamento">
+                        <i class="fa-solid fa-money-bill"></i>
+                        Apoiar Projeto
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <header id="secao-home">
+            <h1> APP TEV </h1>
+            <span> Descubra a inovadora solução<br>desenvolvida para otimizar<br>a avaliação de risco de TEV.<br><br> </span>
+            <a href="#secao-apresentacao" class="botao">Quero Conhecer!</a> 
+        </header>
+        
+        <section id="secao-apresentacao">
+            <div id="perfil_texto">
+                    <div id="texto-apresentacao">
+                        <h2> Apresentaçao do Problema </h2>
+                        <p> <br>O AppTEV atualmente não está disponível para uso<br>
+                            em computadores e não permite a extração dos resultados<br>
+                            dos Scores. Nesse contexto, o objetivo é possibilitar<br>
+                            o uso do AppTEV em computadores, além de permitir<br>
+                            a extração dos resultados para anexar ao prontuário,<br>
+                            tornando a ferramenta mais efetiva.</p>
+                        </div>
+                        <img class="perfil large-only" src="./assets/images/medico-preocupado-lendo-relatorios-medicos-de-seu-paciente-em-um-computador-e-pensando-no-tipo-de-tratamento-durante-a-consulta-medica.jpg">
+                    </div>
+                    <div id="perfil_texto">
+                        <div>
+                    <h3> Apresentaçao dos Objetivos </h3>
+                    <p> <br>- Uso do AppTEV em computadores.<br>
+                            - Avaliação de risco de TEV com base no score.<br>
+                            - Extração facilitada dos resultados dos scores.<br>
+                            - Aumento da efetividade do AppTEV.<br>
+                        </p>
+                    </div>
+                <img class="perfil large-only" src="./assets/images/medico-sorridente-usando-projecao-3d-virtual.jpg">
+                </div>
+                <a href="#secao-projetos" class="botao-projetos">Vizualizar Soluçoes!</a>
+            </section>
+
+            <section id="secao-projetos">
+            <div id="projetos_texto">
+                <h6>
+                    Soluçoes
+                </h6>
+                
+                <ul>
+                    <li class="card">
+                        <div class="card-image"><img src="./assets/images/close-up-maos-digitando-no-teclado.jpg" alt="meninos_jogando"></div>
+                        <div class="card-info">
+                            <h4>AppTEV para Computadores</h4>
+                                <p>Visando ampliar sua acessibilidadee integração ao fluxo de trabalho<br>médico, melhorando a avaliação de risco de TEV.</p>
+                                </div>
+                            </li>
+                            <li class="card">
+                                <div class="card-image"><img src="./assets/images/banner-medico-com-medico-trabalhando-no-laptop.jpg" alt="criança_marrenta"></div>
+                        <div class="card-info">
+                            <h4>Interface intuitiva</h4>
+                                <p>Será implementada uma interface intuitiva no AppTEV, facilitando a interação dos médicos durante a avaliação de risco de TEV e tornando a utilização do aplicativo mais fácil e amigável.</p>
+                                </div>
+                            </li>
+                    <li class="card">
+                        <div class="card-image"><img src="./assets/images/medico-sugerindo-programa-hospitalar-ao-paciente.jpg" alt="bicicleta"></div>
+                        <div class="card-info">
+                            <h4>Novas Funcionalidades</h4>
+                                <p>Implementação de novas funcionalidades no AppTEV, como a extração e exportação dos resultados dos scores, facilitando a anexação ao prontuário do paciente e tornando o aplicativo mais completo e efetivo no auxílio à avaliação de risco de TEV.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            </section>
+        
+            <section id="secao-orcamento">
+                <h3>Apoiar Nosso Projeto!</h3>
+                <form action="">
+                    
+                    <label for="qtde">Quantidade de Pessoas que irá apoiar e acompanhar o desenvolvimento.</label>
+                    <input type="number" id="qtde" min="1" value="1">
+                    
+                    <label for="js">Acesso exclusivo à Protótipos do Projeto?</label>
+                    <input type="checkbox" id="js">
+                    
+                    <label for="layout">Acesso ao Grupo de Atualizaçoes sobre o Desenvolvimento?</label>
+                    <div>
+                        <input type="radio" id="layout_sim" name="layout">
+                        <label for="layout_sim">Sim, quero ter acesso.</label>
+                        
+                        <input type="radio" id="layout_nao" name="layout">
+                        <label for="layout_nao">Não, não tem necessidade.</label>
+                    </div>
+
+                    <label for="prazo" id="label_prazo">Meses de Apoio ao Projeto</label>
+                    <input type="range" id="prazo" min="1" max="12">
+                    
+                    <output id="output">R$ 0.00</output>
+                </form>
+            </section>
+            
+        <script src="./assets/js/script.js"></script>
+        <script src="./assets/js/menu.js"></script>
+    </body>
+
+</html>
